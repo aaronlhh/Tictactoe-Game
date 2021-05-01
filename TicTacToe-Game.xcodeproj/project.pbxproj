@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		931CFB42263DD3610085257E /* Resources in Copy Files (1 item) */ = {isa = PBXBuildFile; fileRef = 931CFB41263DD3610085257E /* Resources */; };
+		931CFB47263DD4600085257E /* PauseState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 931CFB45263DD4600085257E /* PauseState.cpp */; };
+		931CFB4B263DD9CF0085257E /* GameOverState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 931CFB49263DD9CF0085257E /* GameOverState.cpp */; };
+		93575042263C4C6300155948 /* MainMenuState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93575040263C4C6300155948 /* MainMenuState.cpp */; };
+		938772B8263CA6DF008C1E45 /* GameState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 938772B6263CA6DF008C1E45 /* GameState.cpp */; };
+		93A07393263B38760066D587 /* StateMachine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93A07391263B38760066D587 /* StateMachine.cpp */; };
+		93A639D9263B703500323608 /* AssetManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93A639D7263B703500323608 /* AssetManager.cpp */; };
+		93A639DD263B74F200323608 /* InputManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93A639DB263B74F200323608 /* InputManager.cpp */; };
+		93A639E1263B9A7900323608 /* TicTacToeGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93A639DF263B9A7900323608 /* TicTacToeGame.cpp */; };
+		93A639E6263BAF3200323608 /* SplashState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93A639E4263BAF3200323608 /* SplashState.cpp */; };
 		93B0D6CA263B040E0053B4F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93B0D6C9263B040E0053B4F2 /* main.cpp */; };
 		93B0D6D8263B05480053B4F2 /* libsfml-system.2.5.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B0D6D3263B05480053B4F2 /* libsfml-system.2.5.1.dylib */; };
 		93B0D6D9263B05480053B4F2 /* libsfml-window.2.5.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B0D6D4263B05480053B4F2 /* libsfml-window.2.5.1.dylib */; };
@@ -16,18 +26,41 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		93B0D6C4263B040E0053B4F2 /* CopyFiles */ = {
+		93B0D6C4263B040E0053B4F2 /* Copy Files (1 item) */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
+				931CFB42263DD3610085257E /* Resources in Copy Files (1 item) */,
 			);
+			name = "Copy Files (1 item)";
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		931CFB41263DD3610085257E /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
+		931CFB45263DD4600085257E /* PauseState.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PauseState.cpp; sourceTree = "<group>"; };
+		931CFB46263DD4600085257E /* PauseState.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PauseState.hpp; sourceTree = "<group>"; };
+		931CFB49263DD9CF0085257E /* GameOverState.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GameOverState.cpp; sourceTree = "<group>"; };
+		931CFB4A263DD9CF0085257E /* GameOverState.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GameOverState.hpp; sourceTree = "<group>"; };
+		93575040263C4C6300155948 /* MainMenuState.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MainMenuState.cpp; sourceTree = "<group>"; };
+		93575041263C4C6300155948 /* MainMenuState.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MainMenuState.hpp; sourceTree = "<group>"; };
+		938772B6263CA6DF008C1E45 /* GameState.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GameState.cpp; sourceTree = "<group>"; };
+		938772B7263CA6DF008C1E45 /* GameState.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GameState.hpp; sourceTree = "<group>"; };
+		93A07390263B377B0066D587 /* States.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = States.hpp; sourceTree = "<group>"; };
+		93A07391263B38760066D587 /* StateMachine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StateMachine.cpp; sourceTree = "<group>"; };
+		93A07392263B38760066D587 /* StateMachine.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StateMachine.hpp; sourceTree = "<group>"; };
+		93A639D7263B703500323608 /* AssetManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AssetManager.cpp; sourceTree = "<group>"; };
+		93A639D8263B703500323608 /* AssetManager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AssetManager.hpp; sourceTree = "<group>"; };
+		93A639DB263B74F200323608 /* InputManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InputManager.cpp; sourceTree = "<group>"; };
+		93A639DC263B74F200323608 /* InputManager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = InputManager.hpp; sourceTree = "<group>"; };
+		93A639DF263B9A7900323608 /* TicTacToeGame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TicTacToeGame.cpp; sourceTree = "<group>"; };
+		93A639E0263B9A7900323608 /* TicTacToeGame.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TicTacToeGame.hpp; sourceTree = "<group>"; };
+		93A639E3263BAE7900323608 /* DEFINITIONS.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DEFINITIONS.hpp; sourceTree = "<group>"; };
+		93A639E4263BAF3200323608 /* SplashState.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SplashState.cpp; sourceTree = "<group>"; };
+		93A639E5263BAF3200323608 /* SplashState.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SplashState.hpp; sourceTree = "<group>"; };
 		93B0D6C6263B040E0053B4F2 /* TicTacToe-Game */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "TicTacToe-Game"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93B0D6C9263B040E0053B4F2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		93B0D6D3263B05480053B4F2 /* libsfml-system.2.5.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-system.2.5.1.dylib"; path = "ExternalLibrary/SFML/lib/libsfml-system.2.5.1.dylib"; sourceTree = "<group>"; };
@@ -56,6 +89,7 @@
 		93B0D6BD263B040E0053B4F2 = {
 			isa = PBXGroup;
 			children = (
+				931CFB41263DD3610085257E /* Resources */,
 				93B0D6C8263B040E0053B4F2 /* TicTacToe-Game */,
 				93B0D6C7263B040E0053B4F2 /* Products */,
 				93B0D6D2263B05470053B4F2 /* Frameworks */,
@@ -74,6 +108,26 @@
 			isa = PBXGroup;
 			children = (
 				93B0D6C9263B040E0053B4F2 /* main.cpp */,
+				93A07390263B377B0066D587 /* States.hpp */,
+				93A07391263B38760066D587 /* StateMachine.cpp */,
+				93A07392263B38760066D587 /* StateMachine.hpp */,
+				93A639D7263B703500323608 /* AssetManager.cpp */,
+				93A639D8263B703500323608 /* AssetManager.hpp */,
+				93A639DB263B74F200323608 /* InputManager.cpp */,
+				93A639DC263B74F200323608 /* InputManager.hpp */,
+				93A639DF263B9A7900323608 /* TicTacToeGame.cpp */,
+				93A639E0263B9A7900323608 /* TicTacToeGame.hpp */,
+				93A639E3263BAE7900323608 /* DEFINITIONS.hpp */,
+				93A639E4263BAF3200323608 /* SplashState.cpp */,
+				93A639E5263BAF3200323608 /* SplashState.hpp */,
+				93575040263C4C6300155948 /* MainMenuState.cpp */,
+				93575041263C4C6300155948 /* MainMenuState.hpp */,
+				938772B6263CA6DF008C1E45 /* GameState.cpp */,
+				938772B7263CA6DF008C1E45 /* GameState.hpp */,
+				931CFB45263DD4600085257E /* PauseState.cpp */,
+				931CFB46263DD4600085257E /* PauseState.hpp */,
+				931CFB49263DD9CF0085257E /* GameOverState.cpp */,
+				931CFB4A263DD9CF0085257E /* GameOverState.hpp */,
 			);
 			path = "TicTacToe-Game";
 			sourceTree = "<group>";
@@ -99,7 +153,7 @@
 			buildPhases = (
 				93B0D6C2263B040E0053B4F2 /* Sources */,
 				93B0D6C3263B040E0053B4F2 /* Frameworks */,
-				93B0D6C4263B040E0053B4F2 /* CopyFiles */,
+				93B0D6C4263B040E0053B4F2 /* Copy Files (1 item) */,
 			);
 			buildRules = (
 			);
@@ -146,7 +200,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93575042263C4C6300155948 /* MainMenuState.cpp in Sources */,
+				931CFB47263DD4600085257E /* PauseState.cpp in Sources */,
+				938772B8263CA6DF008C1E45 /* GameState.cpp in Sources */,
+				93A639DD263B74F200323608 /* InputManager.cpp in Sources */,
+				93A639D9263B703500323608 /* AssetManager.cpp in Sources */,
+				93A639E6263BAF3200323608 /* SplashState.cpp in Sources */,
+				93A639E1263B9A7900323608 /* TicTacToeGame.cpp in Sources */,
 				93B0D6CA263B040E0053B4F2 /* main.cpp in Sources */,
+				93A07393263B38760066D587 /* StateMachine.cpp in Sources */,
+				931CFB4B263DD9CF0085257E /* GameOverState.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
