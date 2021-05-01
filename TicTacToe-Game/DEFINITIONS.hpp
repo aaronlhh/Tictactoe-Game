@@ -40,15 +40,16 @@
 #define O_WINNING_PIECE_FILEPATH "../Resources/res/O Win.png"
 
 
-#define GRID_SPRITE_FILEPATH "../Resouces/res/Grid.png"
+#define GRID_SPRITE_FILEPATH "../Resources/res/Grid.png"
 
     // keeping them different numbers just wanna keep them unique
     // from each other
 #define X_PIECE 8
 #define O_PIECE 0
 #define EMPTY_PIECE -1
-#define PLAY_PIECE X_PIECE
+#define PLAYER_PIECE X_PIECE
 #define AI_PIECE O_PIECE
+#define PLAYER2_PIECE O_PIECE
     
 #define STATE_PLAYING 98
 #define STATE_PAUSED 97
@@ -58,7 +59,7 @@
 #define STATE_AI_PLAYING 93
 #define STATE_DRAW 92
 
-
+#define TIME_BEFORE_SHOWING_GAME_OVER 3
 
 
 

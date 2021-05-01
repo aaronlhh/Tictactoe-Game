@@ -29,9 +29,9 @@ void GameOverState::init(){
     
     
     // adjusting positions
-    this->_retryButton.setPosition( (this->_data->window.getSize().x/2) - (_retryButton.getLocalBounds().width),
+    this->_retryButton.setPosition( (this->_data->window.getSize().x/2) - (_retryButton.getLocalBounds().width/2),
                                      (this->_data->window.getSize().y/3) - (this->_retryButton.getLocalBounds().height/2) );
-    this->_homeButton.setPosition( (this->_data->window.getSize().x/2) - (_homeButton.getLocalBounds().width),
+    this->_homeButton.setPosition( (this->_data->window.getSize().x/2) - (_homeButton.getLocalBounds().width/2),
                                      (this->_data->window.getSize().y/3*2) - (this->_homeButton.getLocalBounds().height/2) );
     
 }
