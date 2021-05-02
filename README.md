@@ -2,7 +2,7 @@
 Tic Tac Toe Game using C++ with SFML library
 
 ## Reference
-- [SFML Tic-Tac-Toe](https://www.youtube.com/watch?v=tgXEws1Ef8s&list=PLRtjMdoYXLf4L0UVTggZdTV55baO6x6CO&index=3)
+- [SFML Tic-Tac-Toe](https://github.com/SonarSystems/Tic-Tac-Toe-SFML-CPP)
 
 ## Adding features
 - 2 Players
