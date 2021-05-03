@@ -12,6 +12,8 @@
 #define SCREEN_WIDTH 768
 #define SCREEN_HEIGHT 1136
 
+// 414*736
+
 #define SPLASH_STATE_SHOW_TIME 3
 
 
