@@ -33,4 +33,4 @@
 
 # xcode proj file
 *.xcodeproj
-
+ExternalLibrary/SFML
