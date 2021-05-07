@@ -13,8 +13,6 @@
 #include "TicTacToeGame.hpp"
 
 
-
-
 class SplashState: public States{
 public:
     SplashState(GameDataRef data);
