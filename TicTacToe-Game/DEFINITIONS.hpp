@@ -16,22 +16,27 @@
 
 
 #define SPLASH_SCENE_BACKGROUND_FILEPATH "../Resources/res/Splash Background.png"
-#define MAIN_MENU_BACKGROUND_FILEPATH "../Resources/res/Main Menu Background.png"
+#define MAIN_MENU_BACKGROUND_FILEPATH "../Resources/AAA/Background.png"
 #define GAME_BACKGROUND_FILEPATH "../Resources/res/Main Menu Background.png"
 #define PAUSE_BACKGROUND_FILEPATH "../Resources/res/Main Menu Background.png"
 #define RETRY_BACKGROUND_FILEPATH "../Resources/res/Main Menu Background.png"
 
 
-#define MAIN_MENU_TITLE_PATH "../Resources/res/Game Title.png"
-
-
-#define MAIN_MENU_PLAY_BUTTON_PATH "../Resources/res/Play Button.png"
+#define MAIN_MENU_TOUCH_BUTTON_PATH "../Resources/AAA/Group 4.png"
 #define RESUME_BUTTON_PATH "../Resources/res/Resume Button.png"
 #define HOME_BUTTON_PATH "../Resources/res/Home Button.png"
 #define PAUSE_BUTTON_PATH "../Resources/res/Pause Button.png"
 
-
-#define MAIN_MENU_PLAY_BUTTON_OUTER_PATH "../Resources/res/Play Button Outer.png"
+// used in main menu choosing players feature
+static int buttonPicked;
+#define ONE_PLAYER 1
+#define TWO_PLAYER 2
+#define NO_PLAYER 0
+#define MAIN_MENU_ONE_PLAYER_BUTTON_PATH "../Resources/AAA/1 player.png"
+#define MAIN_MENU_ONE_PLAYER_SELECTED_PATH "../Resources/AAA/1 player( white).png"
+#define MAIN_MENU_TWO_PLAYER_BUTTON_PATH "../Resources/AAA/2 player.png"
+#define MAIN_MENU_TWO_PLAYER_SELECTED_PATH "../Resources/AAA/2 player( white).png"
+#define MAIN_MENU_TITLE_PATH "../Resources/AAA/Title.png"
 
 
 #define X_PIECE_FILEPATH "../Resources/res/X.png"
@@ -45,8 +50,8 @@
     // keeping them different numbers just wanna keep them unique
     // from each other
 #define X_PIECE 8
-#define O_PIECE 0
-#define EMPTY_PIECE -1
+#define O_PIECE 7
+#define EMPTY_PIECE 9
 #define PLAYER_PIECE X_PIECE
 #define AI_PIECE O_PIECE
 #define PLAYER2_PIECE O_PIECE

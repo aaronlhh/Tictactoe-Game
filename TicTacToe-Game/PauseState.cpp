@@ -31,9 +31,9 @@ void PauseState::init(){
     
     
     // adjusting positions
-    this->_resumeButton.setPosition( (this->_data->window.getSize().x/2) - (_resumeButton.getLocalBounds().width),
+    this->_resumeButton.setPosition( (this->_data->window.getSize().x/2) - (_resumeButton.getLocalBounds().width/2),
                                      (this->_data->window.getSize().y/3) - (this->_resumeButton.getLocalBounds().height/2) );
-    this->_homeButton.setPosition( (this->_data->window.getSize().x/2) - (_homeButton.getLocalBounds().width),
+    this->_homeButton.setPosition( (this->_data->window.getSize().x/2) - (_homeButton.getLocalBounds().width/2),
                                      (this->_data->window.getSize().y/3*2) - (this->_homeButton.getLocalBounds().height/2) );
     
 }
