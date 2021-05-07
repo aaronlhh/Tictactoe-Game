@@ -33,3 +33,4 @@
 
 # xcode proj file
 *.xcodeproj
+*.DS_STORE
